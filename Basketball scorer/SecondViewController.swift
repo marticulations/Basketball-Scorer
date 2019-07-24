@@ -25,6 +25,8 @@ class SecondViewController: UIViewController, UITextFieldDelegate {
     @IBOutlet weak var numberOfPoints: UITextField!
     @IBOutlet weak var nextButton: UIButton!
     
+    var funVar : String = "Yay!"
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
